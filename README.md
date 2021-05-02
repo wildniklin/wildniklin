@@ -15,7 +15,7 @@ public static class Wildniklin : MonoBehaviour
     public const indentType favoriteIndentType = indentType.space;
     public const int favoriteIndentSize = 4;
 
-    public const int libsCreatedPublicly = 1;
+    public const int libsCreatedPublicly = 1; // Check my gist github profile!
     public const int libsCreatedPrivately = 4; // Planning to add more public ones
     
     private void Start()
