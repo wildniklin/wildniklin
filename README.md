@@ -4,19 +4,24 @@
 // Put me in a component in unity! Hopefully it works. (Untested, lmk if it doesn't work)
 
 using UnityEngine;
+using System;
+using System.Collections.Generic;
 
 public static class Wildniklin : MonoBehaviour
 {
     public enum indentType { space, tab };
 
-    public const string favoriteIDE = "visual studio and vscode";
-    public const string favoriteLanguage = "C#";
-    public const string favoriteGameEngine = "Unity";
-    public const indentType favoriteIndentType = indentType.space;
-    public const int favoriteIndentSize = 4;
+    public readonly string favoriteIDE = "visual studio and vscode";
+    public readonly string favoriteLanguage = "C#";
+    public readonly string favoriteGameEngine = "Unity";
+    public readonly indentType favoriteIndentType = indentType.space;
+    public readonly int favoriteIndentSize = 4;
 
-    public const int libsCreatedPublicly = 1; // Check my gist github profile!
-    public const int libsCreatedPrivately = 4; // Planning to add more public ones
+    public readonly int libsCreatedPublicly = 1; // Check my gist github profile!
+    public readonly int libsCreatedPrivately = 4; // Planning to add more public ones
+    
+    public readonly string[] libsOnTheWay = new string[]{"float2, float3, int2, int3 alternatives to unity's \"bad\" Vector classes. (I just don't like unity's vectors. Unity didn't finish the vector classes.)"};
+    public readonly string[] libsPublic = new string[]{"FastMath for faster calculations. Comes with precalculated sine functions with decent precision."};
     
     private void Start()
     {
@@ -28,6 +33,9 @@ public static class Wildniklin : MonoBehaviour
                   "Favorite IndentSize: " + favoriteIndentSize.ToString() + "\n" +
                   "Libraries Created Publicly: " + libsCreatedPublicly.ToString() + "\n" +
                   "Libraries Created Privately: " + libsCreatedPrivately.ToString());
+                  
+        for(int i = 0; i < libsOnTheWay.Length; i++) Debug.Log("Library on the way: " + libsOnTheWay[i]);
+        for(int i = 0; i < libsPublic.Length; i++) Debug.Log("Library currently public: " + libsPublic[i]);
     }
 }
 ```
