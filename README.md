@@ -7,7 +7,6 @@
   <img src="https://media.tenor.com/1oQPW37YN38AAAAC/cat.gif" width="30%" />
 </p>
 
-
 78,392 contributions in the last year
-![image](https://user-images.githubusercontent.com/124672559/230534230-6409e0ed-e106-4759-8c76-9e2f94cf88f3.png)
-![image](https://user-images.githubusercontent.com/124672559/230533626-e1ebdc31-f2dc-4451-bc1b-630d4310eba5.png)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/124672559/230534230-6409e0ed-e106-4759-8c76-9e2f94cf88f3.png"><img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://user-images.githubusercontent.com/124672559/230535217-8684a089-877c-4bb0-b293-61431a6fd691.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/124672559/230533626-e1ebdc31-f2dc-4451-bc1b-630d4310eba5.png"><img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://user-images.githubusercontent.com/124672559/230535429-4eed72a0-7320-48ab-bcf0-d903759755cf.png"></picture>
