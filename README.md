@@ -9,5 +9,5 @@
 
 
 78,392 contributions in the last year
-![image](https://user-images.githubusercontent.com/124672559/230534151-68c1189d-2b0e-460b-a830-49f1862dcacf.png)
+![image](https://user-images.githubusercontent.com/124672559/230534230-6409e0ed-e106-4759-8c76-9e2f94cf88f3.png)
 ![image](https://user-images.githubusercontent.com/124672559/230533626-e1ebdc31-f2dc-4451-bc1b-630d4310eba5.png)
